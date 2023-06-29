@@ -4,6 +4,17 @@ In Java,
 
 
 
+
+What is JFrame in Java?
+
+        JFrame is a top-level container that provides a window on the screen.
+        A frame is actually a base window on which other components rely, namely
+        the menu bar, panels, labels, text fields, buttons, etc.
+        Almost every other Swing application starts with the JFrame window.
+
+
+
+
 Why use @override in Java?
 
         The @Override annotation indicates that the 
@@ -18,7 +29,7 @@ what is the use of e.getSource()?
 
 How to run a program through another program?
         Just put the two files in the same directory. and simply call that class as if it was in the same program file.
-        
+
 
 What is Applet? 
         An applet is a Java program that can be embedded into a web page. 
