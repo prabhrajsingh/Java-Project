@@ -1,0 +1,37 @@
+In Java,
+    Overriding is a feature that allows a subclass or child class to provide a specific implementation
+    of a method that is already provided by one of its super-classes or parent classes.
+
+
+
+Why use @override in Java?
+
+        The @Override annotation indicates that the 
+        child class method is over-writing its base class method. 
+        It extracts a warning from the compiler if the annotated method doesn't actually override anything. 
+        It can improve the readability of the source code
+
+
+what is the use of e.getSource()?
+        The getSource method is used in the actionPerformed method to determine which button was clicked.
+
+
+How to run a program through another program?
+        Just put the two files in the same directory. and simply call that class as if it was in the same program file.
+        
+
+What is Applet? 
+        An applet is a Java program that can be embedded into a web page. 
+        It runs inside the web browser and works at client side.
+        An applet is embedded in an HTML page using the APPLET or OBJECT tag and hosted on a web server.
+        Applets are used to make the website more dynamic and entertaining.
+
+
+
+        The type Applet is deprecated since version 9
+        Deprecated The Applet API is deprecated, no replacement.
+
+        An applet is a small program that is intended not to be run on its own, but rather to be embedded inside another application.
+        The Applet class must be the superclass of any applet that is to be embedded in a Web page or viewed by the Java Applet Viewer. 
+        The Applet class provides a standard interface between applets and their environment.
+
