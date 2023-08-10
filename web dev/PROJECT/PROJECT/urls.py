@@ -17,6 +17,15 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+admin.site.site_header = 'BACKEND'
+admin.site.site_title = 'BACKEND PANEL'
+admin.site.index_title = 'WELCOME TO THE MANAGE PANEL'
+
+from webby.views import (
+    home,
+)
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', home, name='home'),
 ]
