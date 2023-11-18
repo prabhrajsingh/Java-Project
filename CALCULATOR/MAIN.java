@@ -1,3 +1,4 @@
+package CALCULATOR;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 
@@ -29,7 +30,7 @@ public class MAIN
         gotoxy(30,80);System.out.println(" . . . . . . . . C L O S I N G ");
         input.nextLine();
     }
-    public  static void main(String[] args)
+    public static void main(String[] args)
     {
         clearScreen();
         MAIN m = new MAIN(); //calling the object

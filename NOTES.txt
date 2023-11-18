@@ -3,15 +3,26 @@ In Java,
     of a method that is already provided by one of its super-classes or parent classes.
 
 
+What is StringBuilder? 
+        StringBuilder in Java represents a mutable sequence of characters.
+        Since the String Class in Java creates an immutable sequence of characters, 
+                the StringBuilder class provides an alternative to String Class, 
+                as it creates a mutable sequence of characters. 
+
+        The function of StringBuilder is very much similar to the StringBuffer class,
+        as both of them provide an alternative to String Class by making a mutable sequence of characters.
 
 
-What is JFrame in Java?
+        However, 
+                the StringBuilder class differs from the StringBuffer class on the basis of synchronization. 
+                The StringBuilder class provides no guarantee of synchronization whereas the StringBuffer class does.
 
-        JFrame is a top-level container that provides a window on the screen.
-        A frame is actually a base window on which other components rely, namely
-        the menu bar, panels, labels, text fields, buttons, etc.
-        Almost every other Swing application starts with the JFrame window.
 
+        StringBuilder str = new StringBuilder();
+         str.append("PRABH");
+ 
+        // print string
+        System.out.println("String = " + str.toString());
 
 
 
@@ -29,6 +40,14 @@ what is the use of e.getSource()?
 
 How to run a program through another program?
         Just put the two files in the same directory. and simply call that class as if it was in the same program file.
+
+
+What is JFrame in Java?
+
+        JFrame is a top-level container that provides a window on the screen.
+        A frame is actually a base window on which other components rely, namely
+        the menu bar, panels, labels, text fields, buttons, etc.
+        Almost every other Swing application starts with the JFrame window.
 
 
 What is Applet? 

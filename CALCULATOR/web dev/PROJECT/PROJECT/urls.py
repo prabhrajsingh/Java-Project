@@ -23,9 +23,11 @@ admin.site.index_title = 'WELCOME TO THE MANAGE PANEL'
 
 from webby.views import (
     home,
+    # blog,
 )
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    # path('', blog, name = 'blog'),
     path('', home, name='home'),
 ]
